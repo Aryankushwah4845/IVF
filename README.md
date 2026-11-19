@@ -5,7 +5,8 @@ A static, single-page website. There is no build step or server code, so it can 
 ## Files
 ```
 index.html            ← the whole page
-404.html              ← shown for broken links (uses /IVF/ paths; change to / on a custom domain)
+404.html              ← shown for broken links
+sitemap.xml           ← submit this in Google Search Console
 assets/css/style.css  ← all styling (colours are at the top under :root)
 assets/js/main.js     ← mobile menu, scroll effects, photo lightbox
 assets/img/           ← optimised photos (.webp + .jpg fallback)
@@ -27,7 +28,7 @@ The `` `Photos `` folder holds the original WhatsApp photos. It is not needed fo
 - **Regular cPanel hosting:** upload everything except `` `Photos `` into `public_html`.
 
 ## After the domain is live
-1. In `index.html`, replace `https://aryankushwah4845.github.io/IVF/` (canonical, og:url, og:image, JSON-LD) with the new domain, and change `/IVF/` to `/` in `404.html`.
+1. Done: all URLs point to https://susheelahospitalclivf.com/ (hosted on Netlify, domain at GoDaddy).
 2. Add a `sitemap.xml` with the domain and submit it in Google Search Console.
 3. Claim or update the Google Business Profile so the map pin and the "Get directions" link point to the exact location.
 

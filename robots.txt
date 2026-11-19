@@ -1,2 +1,4 @@
 User-agent: *
 Allow: /
+
+Sitemap: https://susheelahospitalclivf.com/sitemap.xml
