@@ -165,6 +165,7 @@ address { font-style: normal; }
 .facts > div:first-child { border-left: 0; }
 .facts dt { font-size: var(--text-secondary); color: var(--muted); margin-bottom: 4px; }
 .facts dd { margin: 0; font-weight: var(--w-semibold); color: var(--heading); }
+.facts-sub { display: block; margin-top: 2px; font-size: var(--text-secondary); font-weight: var(--w-regular); color: var(--muted); }
 
 /* ---------- Sections ---------- */
 .section { padding: var(--s7) 0; }
